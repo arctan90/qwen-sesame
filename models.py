@@ -5,7 +5,7 @@ import torch.nn as nn
 import torchtune
 from huggingface_hub import PyTorchModelHubMixin
 from torchtune.models import llama3_2
-from . import qwen
+import qwen
 
 
 def llama3_2_1B() -> torchtune.modules.transformer.TransformerDecoder:
