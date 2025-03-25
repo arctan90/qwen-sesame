@@ -73,8 +73,8 @@ def qwen_100M() -> torchtune.modules.transformer.TransformerDecoder:
 
 
 FLAVORS = {
-    "llama-1B": llama3_2_1B,
-    "llama-100M": llama3_2_100M,
+    # "llama-1B": llama3_2_1B,
+    # "llama-100M": llama3_2_100M,
     "qwen-1B": qwen_1B,
     "qwen-100M": qwen_100M,
 }
